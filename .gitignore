@@ -1,0 +1,7 @@
+# Ignore the file requested by user
+it.html
+
+# Node / OS / Editor files commonly ignored
+node_modules/
+.DS_Store
+.env

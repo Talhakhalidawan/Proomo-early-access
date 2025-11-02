@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>ProOmo — Coming Soon</title>
+  <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geist+Sans:wght@400;700;900&family=Inter:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="page">
+    <header class="site-header">
+      <div class="brand"><img src="logo.png" alt=""></div>
+      <div class="time" id="liveTime">--:--:--</div>
+    </header>
+
+    <main class="hero">
+        <div class="texts">
+            <h1 class="hero-title">The New Standard<br>for Creator Deals</h1>
+            <p class="hero-sub">Proomo.space is currently under development and launching soon. Join our early access list to be instantly notified the moment we go live.</p>
+        </div>
+
+        <form id="notifyForm" class="notify-form" autocomplete="off" action="#">
+        <div class="input-wrap">
+            <input id="email" name="email" type="email" placeholder="Enter your email" required>
+            <button class="btn" id="notifyBtn" type="submit">Notify Me</button>
+        </div>
+        </form>
+
+    </main>
+<script>
+(function(){
+  const el = document.getElementById('liveTime');
+  function tick() {
+    const t = new Date();
+    el.textContent =
+      String(t.getHours()).padStart(2,'0') + ':' +
+      String(t.getMinutes()).padStart(2,'0') + ':' +
+      String(t.getSeconds()).padStart(2,'0');
+  }
+  tick();          // first paint
+  setInterval(tick, 1000);
+})();
+</script>
+<script>
+const _0x3889a8=_0x108e;function _0x108e(_0x254fd3,_0x275a8b){const _0x336ed8=_0x336e();return _0x108e=function(_0x108e10,_0x408da2){_0x108e10=_0x108e10-0x1c3;let _0x50ab5a=_0x336ed8[_0x108e10];return _0x50ab5a;},_0x108e(_0x254fd3,_0x275a8b);}(function(_0x4eb959,_0x39dddd){const _0x5386b0=_0x108e,_0x573c4c=_0x4eb959();while(!![]){try{const _0x4a33a0=-parseInt(_0x5386b0(0x1df))/0x1*(parseInt(_0x5386b0(0x1d4))/0x2)+-parseInt(_0x5386b0(0x1dd))/0x3*(parseInt(_0x5386b0(0x1c9))/0x4)+-parseInt(_0x5386b0(0x1ca))/0x5*(-parseInt(_0x5386b0(0x1e1))/0x6)+parseInt(_0x5386b0(0x1c3))/0x7*(parseInt(_0x5386b0(0x1cf))/0x8)+-parseInt(_0x5386b0(0x1db))/0x9*(parseInt(_0x5386b0(0x1c7))/0xa)+-parseInt(_0x5386b0(0x1d1))/0xb+parseInt(_0x5386b0(0x1c4))/0xc*(parseInt(_0x5386b0(0x1e3))/0xd);if(_0x4a33a0===_0x39dddd)break;else _0x573c4c['push'](_0x573c4c['shift']());}catch(_0x2fb3ca){_0x573c4c['push'](_0x573c4c['shift']());}}}(_0x336e,0x7080e),document[_0x3889a8(0x1d2)]('notifyForm')['addEventListener'](_0x3889a8(0x1c5),async _0x5dd46b=>{const _0x123cf6=_0x3889a8;_0x5dd46b[_0x123cf6(0x1cc)]();const _0x46960d=document[_0x123cf6(0x1d2)](_0x123cf6(0x1c6)),_0x454eb3=document[_0x123cf6(0x1d2)]('notifyBtn'),_0x5ae64e=_0x46960d[_0x123cf6(0x1d8)][_0x123cf6(0x1d3)]();if(!_0x5ae64e)return;_0x46960d[_0x123cf6(0x1e2)][_0x123cf6(0x1d7)]=_0x123cf6(0x1c8);const _0x340db0=_0x454eb3['innerHTML'];_0x454eb3[_0x123cf6(0x1d6)]='',_0x454eb3['insertAdjacentHTML'](_0x123cf6(0x1da),_0x123cf6(0x1d5));try{const _0x31ab64=await fetch(_0x123cf6(0x1d9),{'method':_0x123cf6(0x1cd),'headers':{'Content-Type':_0x123cf6(0x1de)},'body':JSON['stringify']({'email':_0x5ae64e})}),_0x5e91ba=await _0x31ab64[_0x123cf6(0x1cb)]();if(_0x5e91ba[_0x123cf6(0x1d0)])_0x454eb3['style'][_0x123cf6(0x1e0)]='100%',_0x454eb3[_0x123cf6(0x1d6)]=_0x123cf6(0x1dc);else throw new Error(_0x5e91ba[_0x123cf6(0x1ce)]);}catch(_0x152db3){_0x46960d[_0x123cf6(0x1e2)]['display']='',_0x454eb3['innerHTML']=_0x340db0;}}));function _0x336e(){const _0x36ce47=['14GdMkAd','14701812MRoXHw','submit','email','60ysXAOC','none','1738204VxPyAQ','30NgrVMH','json','preventDefault','POST','message','42568qOhFMC','success','8786723mQfRtZ','getElementById','trim','814696tWnKGP','<span\x20class=\x22loader\x22></span>','innerHTML','display','value','https://executers.ae/proomo.space_notifying.php','afterbegin','470574uGYlaV','Thank\x20you\x20—\x20we’ll\x20notify\x20you\x20soon.','3ZsHGgT','application/json','2GCHccs','width','361626IdSgES','style','26hrtFlK'];_0x336e=function(){return _0x36ce47;};return _0x336e();}
+</script>
+
+    <footer class="site-footer">
+      <div class="left">A product by <a href="https://www.threads.com/@talha_khallid" style="text-decoration: none;" target="_blank"><span class="author">Talha Khalid</span></a></div>
+      <div class="right">All rights reserved</div>
+    </footer>
+  </div>
+</body>
+</html>
