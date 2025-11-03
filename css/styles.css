@@ -207,10 +207,12 @@ body {
 
     color: #F6FBFF;
     font-size: 25px;
+
+    transition: all 0.3s ease-in-out;
 }
 
 .btn:active {
-    transform: translateY(-1px)
+    transform: scale(.99)
 }
 
 /* footer */
@@ -416,4 +418,23 @@ body {
     width: 1px;
     height: 1px;
     overflow: hidden
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Some animation */
+
+
+.btn:hover {
+    box-shadow: inset 0px 0px 11px 10px #252525;
+    color: #f6fbffd3;
 }
